@@ -9,5 +9,5 @@ docker run \
   -it \
   --rm \
   -v $(pwd):/playbook \
-  oliverlorenz/ansible-playbook ansible-playbook setup.yml
+  oliverlorenz/ansible ansible-playbook setup.yml
 ```
